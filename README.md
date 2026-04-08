@@ -4,13 +4,15 @@
 
 In this coding assignment, you are asked to complete two things:
 
-1. Correlation matrix for the datasets **Flight_Delays_2018.csv** and **coffee.csv**. 
-2. ANOVA analysis on the **coffee.csv** for a subset of coffee "Location_Country" that is not significantly different and one subset of data that is significantly different
+1. Create two correlation matrices. One for all the numeric columns of the **Flight_Delays_2018.csv** dataset and another for the numeric columsn from the **coffee.csv** dataset. 
+2. Create two ANOVA analyses on the **coffee.csv** dataset. For these ANOVAs, select 3 (or more) countries that **do not** have a statistically significant difference in measure for one of the "Data_Scores..." variables, then select a different subset of 3 (or more) countries that **do** have a statistically significant difference. Box plots are your friends here. They can help you identify 3 countries with similar means and variance as well as 3 countries with different means.
+   1. Select 3 or more countries from the coffee dataset that **do not** have a statistically significant difference in the "Data_Score" variable of your choice.
+   2. Select 3 or more countries from the coffee dataset that **do** have a statistically significant difference in the "Data_Score" variable of your choice.
 
 ## Deliverables
 
-* Submit all your code in the code repository
-* Submit the visualizations and your analysis on a word document in the code repository and blackboard
+* Submit all your code in blackboard
+* Submit the visualizations and your analysis on a word document in blackboard
 
 ## Useful Python Code
 * Import statsmodels formula api to execute an ANOVA analysis
